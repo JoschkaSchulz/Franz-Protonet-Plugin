@@ -1,6 +1,6 @@
 {
   "name": "Protonet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Protonet",
   "main": "index.js",
   "author": "Joschka Schulz",
@@ -11,8 +11,12 @@
     "message": "",
     "popup": [],
     "hasNotificationSound": true,
-    "hasIndirectMessages": true,
+    "hasIndirectMessages": false,
     "hasTeamID": true,
+    "wording": {
+        "url": "protonet.info",
+        "team": "Protonet"
+    },
     "customURL": false,
     "hostedOnly": false,
     "webviewOptions": {
